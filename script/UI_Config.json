@@ -1,0 +1,95 @@
+{
+	"output_file": "settings.json",
+	"Command": {
+		"type": "textbox",
+		"label": "Command Name",
+		"value": "!track",
+		"tooltip": "The command to trigger the track title in chat",
+		"group": "DEFAULT"
+	},
+
+	"Cooldown": {
+		"type": "slider",
+		"label": "Cooldown (Seconds)",
+		"value": 30,
+		"min": 0,
+		"max": 300,
+		"ticks": 1,
+		"tooltip": "Cooldown in seconds",
+		"group": "DEFAULT"
+	},
+	
+	"Permission": {
+		"type": "dropdown",
+		"value": "Everyone",
+		"items": [
+			"Everyone",
+			"Regular",
+			"Subscriber",
+			"Moderator"
+		],
+		"label": "Permission level",
+		"tooltip": "Set the permission level for the command",
+		"group": "DEFAULT"
+	},
+	"PlayingMessage": {
+		"type": "textbox",
+		"label": "Playing Response Message",
+		"value": "🎶🎵🎵🎶 Now playing: $GPMARTIST - $GPMTITLE 🎶🎵🎵🎶",
+		"tooltip": "Response when a track is playing.\n$GPMARTIST = The Artist\n$GPMTITLE = Track Titles\n$GPMALBUM = The Album",
+		"group": "DEFAULT"
+	},
+		"NotPlayingMessage": {
+			"type": "textbox",
+			"label": "Not Playing Response Message",
+			"value": "Nothing is currently playing. Last Played was: $GPMARTIST - $GPMTITLE 🎶🎵🎵🎶",
+			"tooltip": "Response when a track is not playing.\n$GPMARTIST = The Artist\n$GPMTITLE = Track Titles\n$GPMALBUM = The Album",
+			"group": "DEFAULT"
+		},
+		
+
+	"OpenGithubDonateLink": {
+		"type": "button",
+		"label": "💚 Support on Github",
+		"tooltip": "Donate to support development",
+		"function": "OpenGithubDonateLink",
+		"wsevent": "EVENT_NONE"
+	},
+	"OpenPaypalDonateLink": {
+		"type": "button",
+		"label": "💙 Support on Paypal",
+		"tooltip": "Donate to support development",
+		"function": "OpenPaypalDonateLink",
+		"wsevent": "EVENT_NONE"
+	},
+	"OpenTwitchDonateLink": {
+		"type": "button",
+		"label": "💜 Support on Twitch",
+		"tooltip": "Donate to support development",
+		"function": "OpenTwitchDonateLink",
+		"wsevent": "EVENT_NONE"
+	},
+
+	
+	"OpenFollowOnTwitchLink": {
+		"type": "button",
+		"label": "Follow Me On Twitch",
+		"tooltip": "Get Medal",
+		"function": "OpenFollowOnTwitchLink",
+		"wsevent": "EVENT_NONE"
+	},
+	"OpenReadMeLink": {
+		"type": "button",
+		"label": "Open ReadMe",
+		"tooltip": "Open ReadMe file",
+		"function": "OpenReadMeLink",
+		"wsevent": "EVENT_NONE"
+	},
+	"OpenScriptUpdater": {
+		"type": "button",
+		"label": "Check For Updates",
+		"tooltip": "Check for updates",
+		"function": "OpenScriptUpdater",
+		"wsevent": "EVENT_NONE"
+	}
+}
