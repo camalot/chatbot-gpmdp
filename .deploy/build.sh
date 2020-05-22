@@ -36,7 +36,7 @@ mkdir -p "${WORKSPACE}/temp/";
 mkdir -p "${WORKSPACE}/dist/";
 cp -r "${WORKSPACE}/script" "${WORKSPACE}/temp/";
 cp "${WORKSPACE}/README.md" "${WORKSPACE}/temp/script/";
-sed -i "s/Version = \"1.0.0-snapshot\"/Version = \"${BUILD_VERSION}\"/g" "${WORKSPACE}/temp/script/ChannelPoints_StreamlabsSystem.py";
+sed -i "s/Version = \"1.0.0-snapshot\"/Version = \"${BUILD_VERSION}\"/g" "${WORKSPACE}/temp/script/GPMDP_StreamlabsSystem.py";
 
 
 # Download the latest version of the updater
