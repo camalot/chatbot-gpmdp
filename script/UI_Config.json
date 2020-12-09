@@ -1,10 +1,24 @@
 {
 	"output_file": "settings.json",
+	"DebugMode": {
+		"type": "checkbox",
+		"label": "Enable Debug Mode",
+		"value": true,
+		"tooltip": "If enabled, will log higher level of events.",
+		"group": "DEFAULT"
+	},
 	"Command": {
 		"type": "textbox",
 		"label": "Command Name",
 		"value": "!track",
 		"tooltip": "The command to trigger the track title in chat",
+		"group": "DEFAULT"
+	},
+	"LastFMUser": {
+		"type": "textbox",
+		"label": "LastFM UserName",
+		"value": "",
+		"tooltip": "Your lastfm username to look up what is currently being scobbled.",
 		"group": "DEFAULT"
 	},
 
