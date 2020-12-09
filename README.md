@@ -1,6 +1,8 @@
 # CHATBOT GPMDP NOW PLAYING
 
-Gets track info from [Google Play Music Desktop Player](https://www.googleplaymusicdesktopplayer.com/) and puts the info in the chat
+Gets track info from LastFM and puts the info in the chat.
+
+*NOTE: You must be using a player that supports scrobbling to [LastFM](https://last.fm)*
 
 ## REQUIREMENTS
 
