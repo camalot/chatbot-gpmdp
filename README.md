@@ -1,4 +1,4 @@
-# CHATBOT GPMDP NOW PLAYING
+# CHATBOT LASTFM NOW PLAYING
 
 Gets track info from LastFM and puts the info in the chat.
 
@@ -20,7 +20,7 @@ Gets track info from LastFM and puts the info in the chat.
 - In Chatbot, Click on the import icon on the scripts tab.  
   ![](https://i.imgur.com/16JjCvR.png)
 - Select the downloaded zip file
-- Right click on `GPMDP Track` row and select `Insert API Key`. Click yes on the dialog.  
+- Right click on `LASTFM Track` row and select `Insert API Key`. Click yes on the dialog.  
 [![](https://i.imgur.com/AWmtHKFl.png)](https://i.imgur.com/AWmtHKF.png)  
 
 ## CONFIGURATION

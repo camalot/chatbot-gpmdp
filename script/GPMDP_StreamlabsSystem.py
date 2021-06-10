@@ -27,9 +27,9 @@ clr.AddReference("IronPython.Modules.dll")
 #---------------------------------------
 #   [Required] Script Information
 #---------------------------------------
-ScriptName = "Google Play Music Desktop Player Track Info"
+ScriptName = "LastFM Track Info"
 Website = "http://darthminos.tv"
-Description = "Retrieve Information for the current playing track from GPMDP"
+Description = "Retrieve Information for the current playing track from LastFM"
 Creator = "DarthMinos"
 Version = "1.0.0-snapshot"
 Repo = "camalot/chatbot-gpmdp"
