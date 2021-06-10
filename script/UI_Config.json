@@ -18,7 +18,7 @@
 		"type": "textbox",
 		"label": "LastFM UserName",
 		"value": "",
-		"tooltip": "Your lastfm username to look up what is currently being scobbled.",
+		"tooltip": "Your lastfm username to look up what is currently being scrobbled.",
 		"group": "DEFAULT"
 	},
 
